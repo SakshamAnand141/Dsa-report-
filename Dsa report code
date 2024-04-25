@@ -47,7 +47,6 @@ int main() {
         printf("%d ", *(ptr + i));
     }
 
-    // Free the memory
     free(ptr);
 
     return 0;
